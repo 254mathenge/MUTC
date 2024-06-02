@@ -1,0 +1,69 @@
+.leaders-section-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.leaders-cards-section {
+  max-width: 1000px;
+  font-size: 2rem;
+  display: flex;
+  gap: 5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.leaders-section-content > h1{
+  font-size: 6rem;
+  margin: 6rem auto;
+}
+.Leaders-card {
+  width: 30rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border:1px solid gray;
+  background-color:#f4feff; 
+  overflow: hidden;
+}
+.Leaders-image {
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ 
+}
+.Leaders-image > img {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+}
+.Leaders-name,
+.Leaders-text {
+  padding: 0.5rem;
+}
+.Leaders-socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: auto;
+  gap: 10px;
+}
+.Leaders-socials > a {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #e91e63;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 50%;
+ color:black;
+}
+.Leaders-socials > a :hover{
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+}

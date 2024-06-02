@@ -1,0 +1,30 @@
+.hero-section-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../assets/Heroimage1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  height: 80vh;
+}
+.hero-text-container {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.808);
+}
+.hero-text {
+  /* display: flex;
+  justify-content: center; */
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-right: 5rem;
+  transition: all 0.3s;
+}

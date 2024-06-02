@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  /* position: fixed; */
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  margin-right: 20rem;
+}
+.header-nav-list {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 16px;
+}
+.header-nav-list a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-right: 5rem;
+  transition: all 0.3s;
+}
+.header-nav-list a:hover {
+  transform: scale(1.2);
+  background-color: orangered;
+  color: white;
+}
