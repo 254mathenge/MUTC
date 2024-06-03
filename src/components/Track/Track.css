@@ -47,7 +47,7 @@
   font-size: 3rem;
   font-weight: bold;
 }
-.h2{
+.h2 {
   margin: 2rem;
 }
 .registrationForm {
@@ -59,14 +59,16 @@
   padding: 2rem;
   margin: 4rem;
   gap: 1rem;
-  background-color: aquamarine;
+  background-color: rgb(10, 139, 96);
   width: 400px;
+  border: radius 15px;
 }
 .form-text {
   margin-bottom: 5px;
   padding: 1rem;
   margin: 1rem;
   border-radius: 5px;
+  /* height: 20px; */
 }
 .form-text > label {
   height: 2rem;
