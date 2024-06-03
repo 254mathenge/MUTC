@@ -5,6 +5,7 @@
   padding: 0 1rem;
   /* position: fixed; */
   margin: 0 auto;
+  background-color: aquamarine;
 }
 @media screen and (max-width: 800px) {
   .navbar {

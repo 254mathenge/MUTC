@@ -6,8 +6,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
   height: 80vh;
+}
+@media screen {
+  
 }
 .hero-text-container {
   display: flex;

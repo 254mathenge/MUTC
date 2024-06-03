@@ -66,6 +66,7 @@
   margin-bottom: 5px;
   padding: 1rem;
   margin: 1rem;
+  border-radius: 5px;
 }
 .form-text > label {
   height: 2rem;
