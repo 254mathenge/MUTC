@@ -10,14 +10,14 @@
   margin: 3rem;
 }
 .about-container {
-  height: 60vh;
+  height: 50vh;
   width: 100%;
   height: 100%;
   margin: 2rem auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 0.5rem;
+  gap: 2px;
 }
 .about {
   display: flex;
@@ -26,7 +26,8 @@
   gap: 2rem;
 }
 .about-image {
-  width: 100%;
+  /* width: 100%; */
+  border:2px solid black;
   /* background-color: red; */
   /* border: 1px solid rgb(219, 201, 201); */
   padding: 0.5rem;
