@@ -84,35 +84,57 @@ function Track() {
             );
           })}
         </div>
+        <h2 className="h2">Registration Form</h2>
         <div className="registrationForm">
           <form>
-            <label htmlFor="FirstName" id="fname"></label>
-            <input type="text" placeholder="FirstName" name="fname" required />
-            <label htmlFor="LastName" id="lname"></label>
-            <input type="text" placeholder="LastName" name="lname" required />
-            <label htmlFor="Email" id="email"></label>
-            <input type="Email" placeholder="EmailAddress" name="email" />
-            required
-            <label htmlFor="Course" id="course"></label>
-            <input type="text" placeholder="Course" name="course" required />
-            <label htmlFor="Year" id="year"></label>
-            <input
-              type="date"
-              placeholder="Year of study"
-              name="year"
-              required
-            />
-            <label htmlFor="tracks">Choose a track:</label>
-            <select name="track" id="track">
-              <option value="Cyber Security">Cyber Security</option>
-              <option value="UI/UX design ">UI/UX design </option>
-              <option value="Web development">Web development</option>
-              <option value="Mobile apps development">
-                Mobile apps development
-              </option>
-              <option value="Cloud engineering ">Cloud engineering </option>
-              <option value="Power Platform">Power Platform </option>
-            </select>
+            <div className="form-text">
+              <label htmlFor="FirstName" id="fname"></label>
+              <input
+                type="text"
+                placeholder="FirstName"
+                name="fname"
+                required
+              />
+            </div>
+            <div className="form-text">
+              <label htmlFor="LastName" id="lname"></label>
+              <input type="text" placeholder="LastName" name="lname" required />
+            </div>
+            <div className="form-text">
+              <label htmlFor="Email" id="email"></label>
+              <input
+                type="Email"
+                placeholder="EmailAddress"
+                name="email"
+                required
+              />
+            </div>
+            <div className="form-text">
+              <label htmlFor="Course" id="course"></label>
+              <input type="text" placeholder="Course" name="course" required />
+            </div>
+            <div className="form-text">
+              <label htmlFor="Year" id="year"></label>
+              <input
+                type="date"
+                placeholder="Year of study"
+                name="year"
+                required
+              />
+            </div>
+            <div className="form-text">
+              <label htmlFor="tracks">Choose a track:</label>
+              <select name="track" id="track">
+                <option value="Cyber Security">Cyber Security</option>
+                <option value="UI/UX design ">UI/UX design </option>
+                <option value="Web development">Web development</option>
+                <option value="Mobile apps development">
+                  Mobile apps development
+                </option>
+                <option value="Cloud engineering ">Cloud engineering </option>
+                <option value="Power Platform">Power Platform </option>
+              </select>
+            </div>
           </form>
         </div>
       </section>

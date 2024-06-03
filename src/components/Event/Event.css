@@ -1,36 +1,40 @@
-.events-section-content{
-display:flex;
-flex-direction:column;
+.events-section-content {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.856), rgba(0, 0, 0, 0.863)),
+    url(@/assets/Heroimage1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
 }
-.events-section-content > h2{
-text-align: center;
-font-weight: 600;
-margin: 4rem auto;
-font-size:4rem;
-
+.events-section-content > h2 {
+  text-align: center;
+  font-weight: 600;
+  margin: 4rem auto;
+  font-size: 4rem;
 }
 
-.events-cards-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-
+.events-cards-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
 }
-.eventCard{
-    display: flex;
-    /* flex-direction: column; */
+.eventCard {
+  display: flex;
+  /* flex-direction: column; */
 
-    align-items: center;
-    gap: 3rem;
-    /* width: 100%; */
-    max-width:600px;
-    text-align: left;
-    margin: 1rem auto 0;
-    border-top: 1px solid gray;
+  align-items: center;
+  gap: 3rem;
+  /* width: 100%; */
+  max-width: 600px;
+  text-align: left;
+  margin: 1rem auto 0;
+  border-top: 1px solid gray;
 }
-.events-time-date{
-    width:200px;
-    border-right:1px solid gray;
+.events-time-date {
+  width: 200px;
+  border-right: 1px solid gray;
 }
