@@ -23,14 +23,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
+  gap: 2rem;
 }
 .about-image {
-  width: 50%;
+  width: 100%;
   /* background-color: red; */
-  border: 1px solid rgb(219, 201, 201);
+  /* border: 1px solid rgb(219, 201, 201); */
   padding: 0.5rem;
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .about-text-container {

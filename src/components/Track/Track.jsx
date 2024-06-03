@@ -135,6 +135,9 @@ function Track() {
                 <option value="Power Platform">Power Platform </option>
               </select>
             </div>
+            <div className="form-text">
+              <input type="submit" value="Submit" />
+            </div>
           </form>
         </div>
       </section>
