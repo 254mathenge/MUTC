@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 import "./Track.css";
 import Header from "@/components/Header/Header";
-import crochet from "@/assets/crochet.jpg";
 
 import CybreSecurity from "@/assets/cybre-security.jpg";
 import MobileDev from "@/assets/mobile-dev.jpg";

@@ -48,7 +48,7 @@ const EventsCard = (props) => {
       <div className="eventsName">
         <h2>{props.field}</h2>
         <p>{props.location}</p>
-        <p>by {props.name}</p>
+        <p>by   8{props.name}</p>
       </div>
     </div>
   );
@@ -71,7 +71,6 @@ function Event() {
               />
             );
           })}
-          ;
         </div>
       </section>
     </>

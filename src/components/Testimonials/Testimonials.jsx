@@ -20,7 +20,7 @@ const testimonials = [
     name: "Paul Ngujiri",
     image: crochet,
     testimonial:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nemo error nesciunt. Sequi voluptas quos, voluptatem accusantium eum praesentium voluptates.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nemo error nesciunt. Sequi voluptas quos, voluptatem accusantium eum praesentium voluptates.",
   },
 ];
 const TestimonialCard = (props) => {
@@ -42,23 +42,23 @@ const TestimonialCard = (props) => {
 };
 function Testimonials() {
   return (
+    <Header>
       <section className="testimonials-section-content">
-          <h1>Testimonials</h1>
-          <div className="testimonials-cards-section">
-            {testimonials.map((testimonial, index) => {
-        return (
-          <TestimonialCard
-            key={index}
-            name={testimonial.name}
-            image={testimonial.image}
-            testimonial={testimonial.testimonial}
-          />
-        );
-      })}   
-          </div>
-     
-    </section>
-    
+        <h1>Testimonials</h1>
+        <div className="testimonials-cards-section">
+          {testimonials.map((testimonial, index) => {
+            return (
+              <TestimonialCard
+                key={index}
+                name={testimonial.name}
+                image={testimonial.image}
+                testimonial={testimonial.testimonial}
+              />
+            );
+          })}
+        </div>
+      </section>
+    </Header>
   );
 }
 export default Testimonials;
